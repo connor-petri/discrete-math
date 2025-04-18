@@ -74,3 +74,49 @@ are additional examples of rules of inference:
 \begin{center}
     \includegraphics[width=0.75\textwidth]{rule-of-inference.png}
 \end{center}
+
+\begin{align*}
+    \text{Prove by Detachment} \\
+    \text{Prove by contrapositive}\\
+    \text{Disjunctive of syllogism}\\
+    \text{Law of Syllogism}\\
+\end{align*}
+
+\subsubsection*{Contradictions}
+\paragraph*{Definition}
+A contradiction is a statement that is always false.
+\begin{align*}
+    &\neg p \implies c\\
+    &\therefore p
+\end{align*}
+\pagebreak
+\paragraph*{2 column rule}
+The 2 column rule is a way to prove by contradiction. For example with knights and knaves. Knights always
+tell the truth and knaves always lie:
+\begin{itemize}
+    \item A says B is a knight
+    \item B says A and I are of opposite types
+\end{itemize}
+
+\hrulefill\\
+
+Suppose A is a knight:
+\begin{center}
+    \begin{tabular}{c|c}
+    \hline
+    What A says must be true & By the definition of a knight\\
+    \hline
+    B is a knight & by given (what A says)\\
+    \hline
+    What B says must be true & By the definition of a knight\\
+    \hline
+    A and B are of opposite types & by given (what B says)\\
+    \hline
+    Contradiction & A is not a knight or A is a knave\\
+    \hline
+    The supposition is false & by rule of contradiction\\
+    \hline
+    A is not a knight or A is a knave & by negation of supposition.\\
+    \hline
+    \end{tabular}
+\end{center}

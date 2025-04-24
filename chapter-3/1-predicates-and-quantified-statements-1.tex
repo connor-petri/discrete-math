@@ -25,13 +25,13 @@ If $P(x)$ is a predicate with domain $D$, the truth set of $P(x)$ is the set of 
 elements in $D$ for which $P(x)$ is true when they are substituted for x. The truth 
 set of $P(x)$ is denoted by:
 \begin{equation*}
-    \{x \in D | P(x)\} \subseteq D
+    \{x \in D \ni P(x)\} \subseteq D
 \end{equation*}
 
 \paragraph*{Example}
 Let $P(x)$ be the predicate "$n^2 \leq 30$" with domain $\mathbb{Z}$. The truth set of $P(x)$ is:
 \begin{equation*}
-    \{x \in \mathbb{Z} | P(x)\} = \{-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5\}
+    \{x \in \mathbb{Z} \ni P(x)\} = \{-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5\}
 \end{equation*}
 
 \subsubsection*{Quantified Statements}
@@ -64,7 +64,7 @@ Let $D = \{1,2,3\}$, and show that the statement "$\forall x \in D, x^2 \geq x$"
 
 \paragraph*{Existential Statements}
 Let $P(x)$ be a predicate with domain $D$. An existential statement is a statement of the form
-"$\exists x \in D | P(x)$" which is read as "there exists an $x$ in $D$ such that $P(x)$ is true."
+"$\exists x \in D \ni P(x)$" which is read as "there exists an $x$ in $D$ such that $P(x)$ is true."
 \begin{itemize}
     \item It is defined to be true if and only if $P(x)$ is true for at least one $x$ in $D$.
     \item It is defined to be false if and only if $P(x)$ is false for all $x$ in $D$.
@@ -72,10 +72,10 @@ Let $P(x)$ be a predicate with domain $D$. An existential statement is a stateme
 \end{itemize}
 
 \paragraph*{Example}
-Show that the statement "$\exists x \in \mathbb{Z} | \frac{1}{x} = x$" is true.
+Show that the statement "$\exists x \in \mathbb{Z} \ni \frac{1}{x} = x$" is true.
 \begin{align*}
     x = 1: \frac{1}{1} &= 1 \text{ is true}\\
-    \therefore \quad \exists x \in &\mathbb{Z} | \frac{1}{x} = x \text{ is true.}
+    \therefore \quad \exists x \in &\mathbb{Z} \ni \frac{1}{x} = x \text{ is true.}
 \end{align*}
 
 \paragraph*{Universal Conditional Statements}
